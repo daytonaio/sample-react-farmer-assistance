@@ -1,0 +1,21 @@
+{
+    "name": "React with Vite and Tailwind",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:14",
+    "forwardPorts": [
+      5173
+    ],
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "editor.formatOnSave": true,
+          "javascript.validate.enable": true
+        },
+        "extensions": [
+          "vscodevite.vite",
+          "esbenp.prettier-vscode",
+          "dbaeumer.vscode-eslint"
+        ]
+      }
+    },
+    "postCreateCommand": "npm install"
+  }
